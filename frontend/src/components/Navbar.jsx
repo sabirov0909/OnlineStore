@@ -22,7 +22,7 @@ export default function Navbar({categories, brands}) {
                 <div className="navbar-start">
                     {brands ? <div className="navbar-item has-dropdown is-hoverable">
                         <a className="navbar-link">
-                            Brands
+                            Brand
                         </a>
                         <div className="navbar-dropdown">
                             {brands.map(item => (
